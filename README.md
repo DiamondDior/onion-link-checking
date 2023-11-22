@@ -1,6 +1,18 @@
 Tool to check the availability of onion site and to extract the title of submitted onion URL.
 > This tool helps to investigate a huge set of onion sites by checking its **availability** which helps to filter out the inactive sites and collect the **site title** that might helps us to categories what site we are handling.
 
+#### Top Darknet Markets verified by onion_check.py:
+
+*   [Nemesis Market](http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion) - `http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion/`
+*   [Ares Market](http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion) - `http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion/`
+*   [(MGM)](http://duysanyhuuvafypl2guoiqbgm66ax2xoq6vhxygg5hi4ntdw2wpjqbyd.onion) - `http://duysanyhuuvafypl2guoiqbgm66ax2xoq6vhxygg5hi4ntdw2wpjqbyd.onion/`
+*   [City](http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion) - `http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion/`
+*   [Incognito](http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion) - `http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion`
+*   [Flugsvamp](http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion) - `http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion`
+
+
+##Only for education purposes
+
 ## Installation
 Clone the repository.
 <br /> Navigate to the folder containing onion_check.py
