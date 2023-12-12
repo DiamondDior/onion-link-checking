@@ -17,7 +17,7 @@ except:
     print("Error: Configure Tor as service")
     print("For quick setup refer: https://miloserdov.org/?p=1839")
     exit()
-# Submit a text file containing an onion URL in a line
+# Submit a text file containing an onion URL in a line  , use with http://
 in_file = input("Submit the URL File: ")
 input_file = open(in_file, 'r')
 
