@@ -10,6 +10,7 @@ print("Tor Connection Check")
 try:
     system_ip = requests.get('https://ident.me', proxies=proxies).text
     tor_ip_list = requests.get('https://check.torproject.org/exit-addresses').text
+    #check ruquestions tor ip list
     if system_ip in tor_ip_list:
         print('Tor_IP: ', system_ip)
         print("Tor Connection Success ")
