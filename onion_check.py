@@ -1,42 +1,49 @@
 import requests
 from bs4 import BeautifulSoup
+import logging
+
+# Setup logging
+logging.basicConfig(filename='script_log.log', level=logging.INFO, format=''%(asctime)s %(levelname)s:%(message)s'')
 
 proxies = {
     'http': 'socks5h://127.0.0.1:9050',
     'https': 'socks5h://127.0.0.1:9050'
 }
-# check , can't connect to TOR
-print("Tor Connection Check")
+
+# Tor Connection Check
+logging.info("Tor Connection Check")
 try:
     system_ip = requests.get('https://ident.me', proxies=proxies).text
     tor_ip_list = requests.get('https://check.torproject.org/exit-addresses').text
-    #check ruquestions tor ip list
     if system_ip in tor_ip_list:
-        print('Tor_IP: ', system_ip)
-        print("Tor Connection Success ")
-except:
-    print("Error: Configure Tor as service")
-    print("For quick setup refer: https://miloserdov.org/?p=1839")
+        logging.info(f'Tor_IP: {system_ip}')
+        logging.info("Tor Connection Success")
+    else:
+        logging.error('IP not in Tor exit node list')
+except Exception as e:
+    logging.error(f"Error establishing Tor connection: {e}")
     exit()
-# Submit a text file containing an onion URL in a line  , use with http://
-in_file = input("Submit the URL File: ")
-input_file = open(in_file, 'r')
 
+# Read Onion URLs from a File
+in_file = input("Submit the URL File: ")
+try:
+    input_file = open(in_file, 'r')
+except FileNotFoundError:
+    logging.error("File not found")
+    exit()
+
+# Web Scraping through Tor
 for url in input_file:
-    url = url.rstrip('\n')
+    url = url.strip()
     try:
-        data = requests.get(url, proxies=proxies)
-    except:
-        data = 'error'
-    if data != 'error':
-        status = 'Active'
-        status_code = data.status_code
-        soup = BeautifulSoup(data.text, 'html.parser')
-        page_title = str(soup.title)
-        page_title = page_title.replace('<title>', '')
-        page_title = page_title.replace('</title>', '')
-    elif data == 'error':
-        status = "Inactive"
-        status_code = 'NA'
-        page_title = 'NA'
-    print(url, ': ', status, ': ', status_code, ': ', page_title)
+        response = requests.get(url, proxies=proxies, timeout=10)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            page_title = soup.title.string if soup.title else 'No title'
+            logging.info(f'Active: {url} - {page_title}')
+        else:
+            logging.info(f'Inactive (HTTP {response.status_code}): {url}')
+    except requests.RequestException as e:
+        logging.error(f'Error accessing {url}: {e}')
+
+input_file.close()
