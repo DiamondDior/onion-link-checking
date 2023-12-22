@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 
-# Setup logging
+# Setup logging , on error see script_log.log and send to me
 logging.basicConfig(filename='script_log.log', level=logging.INFO, format=''%(asctime)s %(levelname)s:%(message)s'')
 
 proxies = {
