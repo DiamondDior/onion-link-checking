@@ -10,7 +10,7 @@ proxies = {
     'https': 'socks5h://127.0.0.1:9050'
 }
 
-# Tor Connection Check
+# Tor Connection Check , check request on ident.me
 logging.info("Tor Connection Check")
 try:
     system_ip = requests.get('https://ident.me', proxies=proxies).text
