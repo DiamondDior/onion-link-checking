@@ -9,7 +9,6 @@ Tool to check the availability of onion site and to extract the title of submitt
 *   [City Market](http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion) - `http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion/`
 *   [Incognito Market](http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion) - `http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion`
 *   [Flugsvamp 4.0 (Sweden)](http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion) - `http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion`
-*   [We The North Market (Canada)](http://hn2pawnq42tdk6dfrzsrm3dmrrcq5m75njdtca22in7jdyevfgknrpid.onion/) - `http://hn2pawnq42tdk6dfrzsrm3dmrrcq5m75njdtca22in7jdyevfgknrpid.onion/`
 
 ## Only for education purposes we checked this markets , Nemesis Market , Ares darknet  Market, Flugsvamp 4.0 (Sweden) and other like We The North Market (Canada).
 
