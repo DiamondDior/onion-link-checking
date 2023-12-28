@@ -32,7 +32,7 @@ except FileNotFoundError:
     logging.error("File not found")
     exit()
 
-# Web Scraping through Tor
+# Web Scraping through Tor , input file
 for url in input_file:
     url = url.strip()
     try:
