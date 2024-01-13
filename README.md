@@ -14,7 +14,7 @@ Tool to check the availability of onion site and to extract the title of submitt
 ## Only for education purposes we checked this markets , Nemesis Market , Ares darknet  Market, Flugsvamp 4.0 (Sweden) and other like We The North Market (Canada).
 
 ## Installation
-Clone the repository.
+Clone the repository...
 <br /> Navigate to the folder containing onion_check.py
 <br /> Install the requirements
 <br /> You are ready to go...
