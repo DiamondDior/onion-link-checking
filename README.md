@@ -1,7 +1,7 @@
 Tool to check the availability of onion site and to extract the title of submitted onion URL.
 > This tool helps to investigate a huge set of onion sites by checking its **availability** which helps to filter out the inactive sites and collect the **site title** that might helps us to categories what site we are handling.
 
-#### Top Darknet Markets verified by onion_check.py: Updated 2024-01-18
+#### Top Darknet Markets verified by onion_check.py: Updated 2024-01-20
 
 *   [Nemesis Market](http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion) - `http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion/`
 *   [Incognito Market](http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion) - `http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion`
@@ -11,6 +11,8 @@ Tool to check the availability of onion site and to extract the title of submitt
 *   [City Market](http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion) - `http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion/`
 *   [Flugsvamp 4.0 (Sweden)](http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion) - `http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion`
 
+*   [Abacus Market](http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion) - `http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion/`
+*   [Cypher Market](http://6c5qaz5yo6ih4ykd4aylhatpscz45e6wg5b62zpzfeqz5utn522rozad.onion) - `http://6c5qaz5yo6ih4ykd4aylhatpscz45e6wg5b62zpzfeqz5utn522rozad.onion/`
 ## Only for education purposes we checked this markets , Nemesis Market , Ares darknet  Market, Flugsvamp 4.0 (Sweden) and other like We The North Market (Canada).
 
 ## Installation
