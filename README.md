@@ -21,7 +21,7 @@ Clone the repository...
 <br /> Install the requirements
 <br /> You are ready to go...
 
-## How it works
+## How it works?
 Run the script onion_check.py which will check for Tor Configuration. 
 <br /> If Tor configuration fails, configure it properly 
 <br /> If all set, the script asks for input -- submit the file path containing onion URLs (one URL in a line) as input
