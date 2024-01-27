@@ -13,7 +13,7 @@ Tool to check the availability of onion site and to extract the title of submitt
 
 *   [Abacus Market](http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion) - `http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion/`
 *   [Cypher Market](http://6c5qaz5yo6ih4ykd4aylhatpscz45e6wg5b62zpzfeqz5utn522rozad.onion) - `http://6c5qaz5yo6ih4ykd4aylhatpscz45e6wg5b62zpzfeqz5utn522rozad.onion/`
-## Only for education purposes we checked this markets , Nemesis Market , Ares darknet  Market, Flugsvamp 4.0 (Sweden) and other like We The North Market (Canada).
+## Only for education purposes we checked this markets.
 
 ## Installation
 Clone the repository...
