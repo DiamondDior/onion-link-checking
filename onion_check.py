@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 
+    """Logging all to files"""
 def setup_logging():
     """Setup logging configuration."""
     logging.basicConfig(filename='script_log.log', level=logging.INFO, format='%(asctime)s %(levelname)s:%(message)s')
