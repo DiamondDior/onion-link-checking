@@ -34,7 +34,7 @@ def read_url_file(filename):
         return None
 
 def scrape_urls(urls, proxies):
-    """Web Scraping through Tor for a list of URLs."""
+    """Web Scraping through Tor for a list of URLs. Don't forget one url per line"""
     for url in urls:
         url = url.strip()
         try:
