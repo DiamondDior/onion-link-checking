@@ -1,11 +1,10 @@
 2Tool to check the availability of onion site and to extract the title of submitted onion URL.
 > This tool helps to investigate a huge set of onion sites by checking its **availability** which helps to filter out the inactive sites and collect the **site title** that might helps us to categories what site we are handling.
 
-#### Top Darknet Markets verified by onion_check.py:  Updated 2024-03-28
+#### Top Darknet Markets verified by onion_check.py:  Updated 2024-03-29
 
-*   [Nemesis Market](http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion) - `http://nemesoma3cvi7qmmrfpsxdm63v3c4vb3h5toocuvq4g2auvjtl2vcrid.onion/`
-*   [Incognito Market](http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion) - `http://incozxllf2xnrze6w6ih2m5mhkzdcbrnrmocx4tqxm4ah7kvhfz7xjyd.onion`
-* NEW ✰⋆🌟✪  [NEXUS](http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion) - `http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion`
+
+*   [NEXUS](http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion) - `http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion`
 
 *   [Ares Market](http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion) - `http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion/`
  
