@@ -8,7 +8,6 @@
 
 *   [Ares Market](http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion) - `http://ares6xonracflea6utzdbylajsakxlk2kaq3owxm5aniu7xc2gugdtqd.onion/`
  
-*   [City Market](http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion) - `http://wsptl6nbhtmdheysiqddc2kpfo6lyb2ixcaz5znjcs2xttg2aedexdyd.onion/`
 *   [Flugsvamp 4.0 (Sweden)](http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion) - `http://fs4isrgd2vl4akaeva4kzj3swy7kjjzwfzcriurovoelrxfylbzxgoad.onion`
 
 *   [Abacus Market](http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion) - `http://abacusmu34ooa6hoyg7xic5j2gztky3rplpsbvmqxk6ywnyqb433poyd.onion/`
