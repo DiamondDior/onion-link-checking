@@ -1,7 +1,7 @@
 2Tool to check the availability of onion site and to extract the title of submitted onion URL.
 > This tool helps to investigate a huge set of onion sites by checking its **availability** which helps to filter out the inactive sites and collect the **site title** that might helps us to categories what site we are handling.
 
-#### Top Darknet Markets verified by onion_check.py:  Updated 2024-04-02
+#### Top Darknet Markets verified by onion_check.py:  Updated 2024-04-11
 
 
 *   [NEXUS](http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion) - `http://nexusaohrt72l2i5crrmyhk3em3dcd33rewmbkwit3roc3maj36znhqd.onion`
