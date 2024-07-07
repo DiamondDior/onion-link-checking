@@ -2,3 +2,4 @@ requests
 bs4
 beautifulsoup4
 logging
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
